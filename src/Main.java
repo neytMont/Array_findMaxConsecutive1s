@@ -29,11 +29,18 @@ public class Main
     		{
     			count++;
     		}
-    		if(nums[i] == 0) 
-    		{
-    			maxNum = count;
-    			count = 0;
-    		}
+    		else
+            {
+                if(count > maxNum)
+                {
+                    maxNum = count;
+                }
+                if(maxNum >= nums.length / 2)
+                {
+                    return maxNum;
+                }
+                count = 0;
+            }
     	}
     	
     	if(count < maxNum) 
