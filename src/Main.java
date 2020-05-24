@@ -15,9 +15,6 @@ public class Main
 		int[] arr = { 1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0 };
 		System.out.println(findMaxConsecutiveOnes(arr));
 		
-		int[] arr1 = { 1,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1};
-		System.out.println(findMaxConsecutiveOnes(arr1));
-		
 
 	}
 	
