@@ -1,5 +1,4 @@
 /**
- * summer projects for practice
  * Question: find the max consecutive 1s in an array
  * Input: [1,1,0,1,1,1]
  * Output: 3
